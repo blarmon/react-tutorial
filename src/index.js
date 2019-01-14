@@ -195,7 +195,6 @@ function calculateDraw(squares, winner) {
     }
     for (let i = 0; i < squares.length; i++) {
         if (squares[i] == null) {
-            console.log(squares[i])
             return false;
         }
     }
